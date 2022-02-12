@@ -282,8 +282,8 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../image/banner-bg.webp) no-repeat;
-    background-position: center;
+    background: url(../image/banner-bg2.png) no-repeat;
+    background-position: center center;
     background-size: cover;
     padding-top: 17rem;
     padding-bottom: 10rem;
@@ -317,12 +317,14 @@ section{
 .text-wrapper .static-text{
     color: var(--black);
     font-weight: 400;
+    text-transform: lowercase;
 }
 .text-wrapper .dynamic-texts{
     margin-left: 15px;
     height: 45px;
     line-height: 45px;
     overflow: hidden;
+    text-transform: lowercase;
 }
 .dynamic-texts li{
     color: var(--black);
@@ -838,7 +840,7 @@ section.services-wrapper article div p{
 
 }
 
-@media (max-width:450px){
+@media (max-width:485px){
 
     html{
         font-size: 50%;
@@ -854,6 +856,12 @@ section.services-wrapper article div p{
 
     .footer .box-container .box .payment-img{
         margin: 2rem auto;
+    }
+    .home .content div, .home .content h3{
+        font-size: 2rem;
+    }
+    .text-wrapper .dynamic-texts{
+        line-height: 25px;
     }
 
 }
