@@ -35,7 +35,7 @@ body{
 aside.floating-social-icons{
     position: fixed;
     left: 0;
-    top: 200px;
+    top: 300px;
     z-index: 1000;
 }
 aside.floating-social-icons a{
