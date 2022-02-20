@@ -824,7 +824,41 @@ section.services-wrapper article div p{
 }
   /* CONTACT PAGE STYLES ENDS */
 
-
+/* ABOUT US PAGE STARTS */
+.about-us-container{
+    display: flex;
+    gap: 2rem;
+}
+.about-us-container img{
+    flex: 40%;
+    width: 30%;
+    object-fit: cover;
+}
+.about-us-container div{
+    text-align: center;
+    flex: 60%;
+}
+.about-us-container div h2{
+    font-size: 3rem;
+}
+.about-us-container div p{
+    font-size: 1.5rem;
+}
+.about-statements{
+    display: flex;
+}
+.about-statements div{
+    padding: 3rem;
+    margin-right: 4rem;
+    background-color: #fff;
+}
+.about-statements div h2{
+    font-size: 2.5rem;
+}
+.about-statements div p{
+    font-size: 1.3rem;
+}
+/* ABOUT US PAGE ENDS */
 /* media queries  */
 
 @media (max-width:991px){
@@ -916,6 +950,22 @@ section.services-wrapper article div p{
     }
     .background-img-wrapper h2 {
         font-size: 30px;
+    }
+
+    /* ABOUT US PAGE */
+    .about-us-container{
+        display: block;
+    }
+    .about-us-container div{
+        margin-top: 3rem;
+    }
+
+    .about-statements{
+        display: block;
+    }
+    .about-statements div{
+        margin-right: 0;
+        margin-bottom: 3rem;
     }
 
 }
