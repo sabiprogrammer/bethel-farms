@@ -42,6 +42,7 @@ aside.floating-social-icons a{
     font-size: 3rem;
     color: var(--primary-color);
 }
+
 /* FLOATING SOCAIL ICONS ENDS */
 section{
     padding:2rem 9%;
@@ -755,6 +756,73 @@ section.services-wrapper article div p{
     text-align: center;
   }
 
+  /* CONTACT PAGE STYLES STARTS */
+  .contact-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../image/farmers.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+.contact-header div.content p{
+    color: #fff;
+}
+.contact-details-container{
+    display: flex;
+    gap: 3rem;
+}
+.contact-details-container div:nth-child(1){
+    flex: 40%;
+}
+
+.contact-details-container div:nth-child(2){
+    flex: 60%;
+}
+.contact-details-container div h2{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+.contact-details-container div p{
+    font-size: 1.4rem;
+}
+.contact-details-container a.contact-links{
+    display: block;
+    font-size: 1.5rem;
+    color: #000;
+    padding: 1rem 0;
+}
+.contact-details-container a i{
+    color: var(--primary-color);
+    padding-right: 1rem;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.social-icons a{
+    font-size:3rem;
+}
+.social-icons a:hover{
+    transform: translateY(-5px);
+}
+.contact-details-container form input,
+.contact-details-container form textarea{
+   display: block; 
+   width: 100%;
+   margin-bottom: 3rem;
+   padding: 1.2rem;
+}
+.contact-details-container form button{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1.2rem 3.5rem;
+    font-size: 1.5rem;
+}
+  /* CONTACT PAGE STYLES ENDS */
 
 
 /* media queries  */
@@ -874,6 +942,15 @@ section.services-wrapper article div p{
     }
     .text-wrapper .dynamic-texts{
         line-height: 25px;
+    }
+
+    /* CONTACT US PAGE */
+    .contact-details-container{
+        display: block;
+    }
+    
+    .contact-details-container div:nth-child(2){
+        margin-top: 4rem;
     }
 
 }
