@@ -30,7 +30,18 @@ html{
 body{
     background:#eee;
 }
-
+/* FLOATING SOCAIL ICONS STARTS */
+aside.floating-social-icons{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 1000;
+}
+aside.floating-social-icons a{
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+/* FLOATING SOCAIL ICONS ENDS */
 section{
     padding:2rem 9%;
 }
