@@ -29,6 +29,7 @@ html{
 
 body{
     background:#eee;
+    overflow: hidden;
 }
 /* FLOATING SOCAIL ICONS STARTS */
 aside.floating-social-icons{
